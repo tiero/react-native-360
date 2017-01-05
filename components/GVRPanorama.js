@@ -1,3 +1,9 @@
+/*
+ * @Author: tiero 
+ * @Date: 2017-01-05 17:39:05 
+ * @Last Modified by: tiero
+ * @Last Modified time: 2017-01-05 17:40:19
+ */
 import React, { Component, PropTypes } from 'react'
 import { requireNativeComponent, Image } from 'react-native'
 
@@ -18,8 +24,6 @@ PanoramaView.propTypes = {
   enableTouchTracking: PropTypes.bool,
   hidesTransitionView: PropTypes.bool,
 }
-
-
 
 // requireNativeComponent automatically resolves this to "PanoramaManager"
 var RCTPanoramaView = requireNativeComponent('Panorama', PanoramaView);
