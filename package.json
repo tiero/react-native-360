@@ -1,0 +1,29 @@
+{
+  "name": "react-native-360",
+  "version": "1.0.0",
+  "description": "React Native 360 exploits Google VR Cardboard SDK to load and display 360-degree panoramic photos and to define a view that renders a 360 video using OpenGL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiero/react-native-360.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "image",
+    "360",
+    "video",
+    "google",
+    "vr",
+    "cardboard"
+  ],
+  "peerDependencies": {
+   	"react": "15.4.1",
+		"react-native": "0.40.0"
+  },
+  "author": "tiero",
+  "license": "MIT"
+}
