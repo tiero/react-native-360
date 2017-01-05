@@ -45,8 +45,10 @@ end
 Still in ios folder install pods locally
 
 ```shell
-pod install
+pod install 
+pod update
 ```
+Open `myProject.xcworkspace` and under `myProject` > `Build Settings` under `Build Options` set **ENABLE BITCODE** to **NO**
 
 ### 3. Usage 
 
