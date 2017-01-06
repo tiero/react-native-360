@@ -48,11 +48,14 @@ Still in ios folder install pods locally
 pod install 
 pod update
 ```
-Open `myProject.xcworkspace` and under `myProject` > `Build Settings` under `Build Options` set **ENABLE BITCODE** to **NO**
+
+- Open `myProject.xcworkspace` and under `myProject` > `Build Settings` under `Build Options` set **ENABLE BITCODE** to **NO**
+- Drag the folder `RNGoogleVR` from `node_modules/react-native-360/ios` under your `myProject'
+
 
 ### 3. Usage 
 
-Video Example
+**Video Example**
 
 ```js
 import { VideoView } from 'react-native-360';
@@ -72,6 +75,24 @@ import { VideoView } from 'react-native-360';
     enableInfoButton={false}              
 />            
 ```
+
+**Panorama Example**
+
+```js
+import { PanoramaView } from 'react-native-360';
+```
+
+```js
+<PanoramaView 
+    style={{height:200,width:width}}
+    image={require('./andes.jpg')}
+    displayMode={'embedded'}
+    enableFullscreenButton
+    enableCardboardButton
+    enableTouchTracking
+    hidesTransitionView
+    enableInfoButton={false}              
+/>   
 
 ### API
 
