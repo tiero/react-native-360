@@ -93,6 +93,7 @@ import { PanoramaView } from 'react-native-360';
     hidesTransitionView
     enableInfoButton={false}              
 />   
+```
 
 ### API
 
