@@ -7,7 +7,7 @@
 //
 
 #import "PanoramaView.h"
-#import "<React/RCTImageLoader.h>
+#import <React/RCTImageLoader.h>
 
 
 
