@@ -1,4 +1,4 @@
-target ‘RNGoogleVR’ do
+target 'test' do
   pod 'GVRSDK/GVRView'
   pod 'React', :path => ‘../node_modules/react-native', :subspecs => [
   'Core',

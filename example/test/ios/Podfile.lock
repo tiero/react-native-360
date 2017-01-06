@@ -1,0 +1,40 @@
+PODS:
+  - GVRSDK/Base (1.10.0)
+  - GVRSDK/GVRView (1.10.0):
+    - GVRSDK/Base
+  - React/Core (0.40.0):
+    - React/cxxreact
+    - React/yoga
+  - React/cxxreact (0.40.0):
+    - React/jschelpers
+  - React/jschelpers (0.40.0)
+  - React/RCTImage (0.40.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.40.0):
+    - React/Core
+  - React/RCTText (0.40.0):
+    - React/Core
+  - React/RCTWebSocket (0.40.0):
+    - React/Core
+  - React/yoga (0.40.0)
+
+DEPENDENCIES:
+  - GVRSDK/GVRView
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+
+SPEC CHECKSUMS:
+  GVRSDK: c15e92a9d6276217936b62385b731289fffd8349
+  React: 6dfb2f72edb1d74a800127ae157af038646673ce
+
+PODFILE CHECKSUM: 29b1419a8ff5a8a113d6f9bbfa8cf964828a16ab
+
+COCOAPODS: 1.1.1
