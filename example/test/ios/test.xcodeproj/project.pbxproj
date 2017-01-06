@@ -24,10 +24,10 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		5FA9660E5E59D6974D80AB95 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B25A6C126DAEC3E97F50BB6 /* libPods-test.a */; };
-		6AFE52821E201A20003BC6FD /* PanoramaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE527B1E201A20003BC6FD /* PanoramaManager.m */; };
-		6AFE52831E201A20003BC6FD /* PanoramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE527D1E201A20003BC6FD /* PanoramaView.m */; };
-		6AFE52841E201A20003BC6FD /* VideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE527F1E201A20003BC6FD /* VideoManager.m */; };
-		6AFE52851E201A20003BC6FD /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE52811E201A20003BC6FD /* VideoView.m */; };
+		6AFA9FC51E205ABE002BC4AA /* PanoramaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA9FBE1E205ABE002BC4AA /* PanoramaManager.m */; };
+		6AFA9FC61E205ABE002BC4AA /* PanoramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA9FC01E205ABE002BC4AA /* PanoramaView.m */; };
+		6AFA9FC71E205ABE002BC4AA /* VideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA9FC21E205ABE002BC4AA /* VideoManager.m */; };
+		6AFA9FC81E205ABE002BC4AA /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA9FC41E205ABE002BC4AA /* VideoView.m */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -239,14 +239,14 @@
 		3B25A6C126DAEC3E97F50BB6 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A01FF90A8259A7BE0C7E67 /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		6AFE527A1E201A20003BC6FD /* PanoramaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaManager.h; sourceTree = "<group>"; };
-		6AFE527B1E201A20003BC6FD /* PanoramaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaManager.m; sourceTree = "<group>"; };
-		6AFE527C1E201A20003BC6FD /* PanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaView.h; sourceTree = "<group>"; };
-		6AFE527D1E201A20003BC6FD /* PanoramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaView.m; sourceTree = "<group>"; };
-		6AFE527E1E201A20003BC6FD /* VideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoManager.h; sourceTree = "<group>"; };
-		6AFE527F1E201A20003BC6FD /* VideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoManager.m; sourceTree = "<group>"; };
-		6AFE52801E201A20003BC6FD /* VideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
-		6AFE52811E201A20003BC6FD /* VideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
+		6AFA9FBD1E205ABE002BC4AA /* PanoramaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaManager.h; sourceTree = "<group>"; };
+		6AFA9FBE1E205ABE002BC4AA /* PanoramaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaManager.m; sourceTree = "<group>"; };
+		6AFA9FBF1E205ABE002BC4AA /* PanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaView.h; sourceTree = "<group>"; };
+		6AFA9FC01E205ABE002BC4AA /* PanoramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaView.m; sourceTree = "<group>"; };
+		6AFA9FC11E205ABE002BC4AA /* VideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoManager.h; sourceTree = "<group>"; };
+		6AFA9FC21E205ABE002BC4AA /* VideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoManager.m; sourceTree = "<group>"; };
+		6AFA9FC31E205ABE002BC4AA /* VideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		6AFA9FC41E205ABE002BC4AA /* VideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		B1F820878B7AD3716E47AB1A /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
@@ -407,19 +407,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6AFE52791E2019EF003BC6FD /* RNGoogleVR */ = {
+		6AFA9FBC1E205ABE002BC4AA /* RNGoogleVR */ = {
 			isa = PBXGroup;
 			children = (
-				6AFE527A1E201A20003BC6FD /* PanoramaManager.h */,
-				6AFE527B1E201A20003BC6FD /* PanoramaManager.m */,
-				6AFE527C1E201A20003BC6FD /* PanoramaView.h */,
-				6AFE527D1E201A20003BC6FD /* PanoramaView.m */,
-				6AFE527E1E201A20003BC6FD /* VideoManager.h */,
-				6AFE527F1E201A20003BC6FD /* VideoManager.m */,
-				6AFE52801E201A20003BC6FD /* VideoView.h */,
-				6AFE52811E201A20003BC6FD /* VideoView.m */,
+				6AFA9FBD1E205ABE002BC4AA /* PanoramaManager.h */,
+				6AFA9FBE1E205ABE002BC4AA /* PanoramaManager.m */,
+				6AFA9FBF1E205ABE002BC4AA /* PanoramaView.h */,
+				6AFA9FC01E205ABE002BC4AA /* PanoramaView.m */,
+				6AFA9FC11E205ABE002BC4AA /* VideoManager.h */,
+				6AFA9FC21E205ABE002BC4AA /* VideoManager.m */,
+				6AFA9FC31E205ABE002BC4AA /* VideoView.h */,
+				6AFA9FC41E205ABE002BC4AA /* VideoView.m */,
 			);
 			name = RNGoogleVR;
+			path = ../../../ios/RNGoogleVR;
 			sourceTree = "<group>";
 		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
@@ -461,7 +462,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				6AFE52791E2019EF003BC6FD /* RNGoogleVR */,
+				6AFA9FBC1E205ABE002BC4AA /* RNGoogleVR */,
 				13B07FAE1A68108700A75B9A /* test */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* testTests */,
@@ -889,11 +890,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				6AFE52821E201A20003BC6FD /* PanoramaManager.m in Sources */,
+				6AFA9FC51E205ABE002BC4AA /* PanoramaManager.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				6AFE52831E201A20003BC6FD /* PanoramaView.m in Sources */,
-				6AFE52851E201A20003BC6FD /* VideoView.m in Sources */,
-				6AFE52841E201A20003BC6FD /* VideoManager.m in Sources */,
+				6AFA9FC61E205ABE002BC4AA /* PanoramaView.m in Sources */,
+				6AFA9FC81E205ABE002BC4AA /* VideoView.m in Sources */,
+				6AFA9FC71E205ABE002BC4AA /* VideoManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
