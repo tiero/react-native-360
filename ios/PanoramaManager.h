@@ -5,7 +5,7 @@
 //  Created by Marco Argentieri on 28/12/16.
 //  Copyright © 2016 Facebook. All rights reserved.
 //
-#import "RCTViewManager.h"
+#import <React/RCTViewManager.h>
 
 @interface PanoramaManager : RCTViewManager
 

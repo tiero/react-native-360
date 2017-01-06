@@ -7,9 +7,7 @@
 //
 
 #import "PanoramaView.h"
-#import "RCTUtils.h"
-#import "RCTImageLoader.h"
-#import "RCTConvert+DisplayMode.h"
+#import "<React/RCTImageLoader.h>
 
 
 
