@@ -18,6 +18,7 @@
 
 **React Native 360** exploits [Google VR Cardboard SDK](https://developers.google.com/vr/) to load and display 360-degree panoramic photos and to define a view that renders a 360 video using OpenGL
 
+> the Google VR SDK works only with a real device [#3](https://github.com/tiero/react-native-360/issues/3) 
 ### 2. Installation
 
 You can pull in react-native-360 via npm:
@@ -50,7 +51,7 @@ pod update
 ```
 
 - Open `myProject.xcworkspace` and under `myProject` > `Build Settings` under `Build Options` set **ENABLE BITCODE** to **NO**
-- Drag the folder `RNGoogleVR` from `node_modules/react-native-360/ios` under your `myProject'
+- Drag the folder `RNGoogleVR` from `node_modules/react-native-360/ios` under your `myProject' and be sure to check `Copy items if needed` and `Create groups`
 
 
 ### 3. Usage 
