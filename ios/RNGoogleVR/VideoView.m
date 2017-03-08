@@ -55,14 +55,36 @@ RCT_ENUM_CONVERTER(GVRWidgetDisplayMode, (@{
 
 -(void)setVideo:(NSDictionary *)video
 {
-  NSURL *url = [NSURL URLWithString:[video objectForKey:@"uri"]];
+  NSString *uri = [video objectForKey:@"uri"];
+  NSURL *url = [NSURL URLWithString:uri];
   NSString *strType = [video objectForKey:@"type"];
-  //default
+  
   GVRVideoType videoType = kGVRVideoTypeMono;
   if ([strType isEqualToString:@"stereo"]) {
     videoType = kGVRVideoTypeStereoOverUnder;
   }
-  [_videoView loadFromUrl:url ofType:videoType];
+  
+  //play from remote url
+  if ( [[uri lowercaseString] hasPrefix:@"https://"] ) {
+    
+    [_videoView loadFromUrl:url ofType:videoType];
+    
+  }else{ // play from local
+    //Local asset: Can be in the bundle or the uri can be an absolute path of a stored video in the application
+    
+    //Check whether the file loaded from the Bundle,
+    NSString *localPath = [[NSBundle mainBundle] pathForResource:uri ofType:@"mp4"];
+    if (localPath) {
+      //Let's replace the `uri` to the full path'
+      uri = localPath;
+    }
+    url = [NSURL fileURLWithPath:uri];
+    // [_videoView loadFromUrl:[[NSURL alloc] initFileURLWithPath:videoPath]
+    //                   ofType:videoType];
+    [_videoView loadFromUrl:url ofType:videoType];
+  }
+  
+  [_videoView pause];
 }
 
 - (void)setDisplayMode:(NSString *)displayMode
