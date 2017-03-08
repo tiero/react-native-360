@@ -64,12 +64,12 @@ RCT_ENUM_CONVERTER(GVRWidgetDisplayMode, (@{
     videoType = kGVRVideoTypeStereoOverUnder;
   }
   
-  //url den oynatma islemi demek
+  //play from remote url
   if ( [[uri lowercaseString] hasPrefix:@"https://"] ) {
     
     [_videoView loadFromUrl:url ofType:videoType];
     
-  }else{ //url degilde local file dan oynat
+  }else{ // play from local
     //Local asset: Can be in the bundle or the uri can be an absolute path of a stored video in the application
     
     //Check whether the file loaded from the Bundle,
