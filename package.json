@@ -1,10 +1,6 @@
 {
   "name": "react-native-360",
-<<<<<<< HEAD
-  "version": "1.0.8",
-=======
   "version": "1.0.9",
->>>>>>> 5edd5b7a3193c6d4c10b182a57fb8435c920b3f8
   "description": "React Native 360 exploits Google VR Cardboard SDK to load and display 360-degree panoramic photos and to define a view that renders a 360 video using OpenGL",
   "main": "index.js",
   "scripts": {
