@@ -33,6 +33,7 @@ in ios folder create a **Podfile**
 ```shell
 target 'myProject' do
   pod 'GVRSDK/GVRView'
+  pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
   pod 'React', :path => ‘../node_modules/react-native', :subspecs => [
   'Core',
   'RCTImage',
