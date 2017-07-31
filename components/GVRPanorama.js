@@ -4,7 +4,8 @@
  * @Last Modified by: tiero
  * @Last Modified time: 2017-01-05 17:40:19
  */
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types';
 import { requireNativeComponent, Image } from 'react-native'
 
 
