@@ -32,15 +32,32 @@ in ios folder create a **Podfile**
 
 ```shell
 target 'myProject' do
-  pod 'GVRSDK/GVRView'
-  pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
-  pod 'React', :path => ‘../node_modules/react-native', :subspecs => [
-  'Core',
-  'RCTImage',
-  'RCTNetwork',
-  'RCTText',
-  'RCTWebSocket',
+  pod 'GVRSDK'
+  # Your 'node_modules' directory is probably in the root of your project,
+  # but if not, adjust the `:path` accordingly
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'Core',
+
+    'RCTActionSheet',
+    'RCTAnimation',
+    'RCTGeolocation',
+    'RCTImage',
+    'RCTLinkingIOS',
+    'RCTNetwork',
+    'RCTSettings',
+    'RCTText',
+    'RCTVibration',
+    'RCTWebSocket',
+    'BatchedBridge',
+
+  
+    'DevSupport' # Include this to enable In-App Devmenu if RN >= 0.43
+    
+    # Add any other subspecs you want to use in your project
   ]
+  
+    # Explicitly include Yoga if you are using RN >= 0.42.0
+  pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 end
 
 ```
