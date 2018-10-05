@@ -1,7 +1,11 @@
+# Looking for maintainers
+### open an issue and tag me @tiero
+
+
 # react-native-360
  A React Native wrapper for [Google VR Cardboard SDK](https://developers.google.com/vr/). 
  
- > The Android wrapper is still in progress, stay tuned 
+> Android version in this [repo](https://github.com/altafan/react-native-gvr-video-android) to be polished and merged here
  
 ## Index
 
