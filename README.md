@@ -5,7 +5,7 @@
 # react-native-360
  A React Native wrapper for [Google VR Cardboard SDK](https://developers.google.com/vr/). 
  
-> Android version in this [repo](https://github.com/altafan/react-native-gvr-video-android) to be polished and merged here
+> Android version in this [repo](https://github.com/altafan/react-native-gvr-video-android) needs to be polished and merged here
  
 ## Index
 
@@ -29,7 +29,7 @@
 You can pull in react-native-360 via github:
 
 ```shell
-npm install git@github.com:tiero/react-native-360.git
+npm install https://github.com/tiero/react-native-360.git
 ```
 
 in ios folder create a **Podfile**
