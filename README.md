@@ -26,10 +26,10 @@
 
 ### 2. Installation
 
-You can pull in react-native-360 via npm:
+You can pull in react-native-360 via github:
 
 ```shell
-npm install react-native-360 --save
+npm install git@github.com:tiero/react-native-360.git
 ```
 
 in ios folder create a **Podfile**
